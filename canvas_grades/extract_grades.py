@@ -1,6 +1,6 @@
 import re
 
-file = open('grade_from_canvas.txt',mode='r')
+file = open('grade_from_canvas.html',mode='r')
 xml = file.read()
 file.close()
 
@@ -18,7 +18,7 @@ Click to test a different score[ \t\n]+
 
 pattern = re.compile(r'Click to test a different score[ \t\n]*</span>[ \t\n]*(\d+.?\d*)')
 
-total = 50
+total = 0
 
 for grade in re.findall(pattern, xml):
     print(grade)
