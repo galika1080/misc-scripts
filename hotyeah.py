@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-## @author agalik
+## @author galika1080
 
 ## hotyeah encoder/decoder for tweet-based steganography, inspired by https://themodernrogue.com
 ## uses a space between a sentence and its delimiter/punctuation for a binary 1, no space for 0
